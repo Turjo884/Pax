@@ -1,0 +1,66 @@
+/* Start Google Fonts Roboto Link */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* End Google Fonts Roboto Link */
+
+/* Start Global CSS */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+ul li{
+    padding: 0;
+    margin: 0;
+}
+/* End Global CSS */
+
+/* Start Header Section */
+header{
+
+}
+header h3{
+    color: #5577b5;
+    font-weight: 300;
+    margin-top: 10px;
+}
+header span{
+    color: #0149a1;
+    font-weight: 600;
+    padding-right: 5px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #5d6981;
+    padding: 20px;
+}
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #5d6981;
+    border: 1px solid #5d6981;
+    padding: 8px 24px;
+    border-radius: 21px;
+    margin: 11px 10px 0 0;
+}
+header .fa-facebook{
+    border: 1px solid #3c5a99;
+    border-radius: 50%;
+    color: #3c5a99;
+    padding: 7px 10px;
+    margin: 15px 10px 0 0;
+}
+header .fa-twitter{
+    border: 1px solid #28aae1;
+    border-radius: 50%;
+    color: #28aae1;
+    padding: 7px;
+    margin-top: 15px;
+}
+.menu-title{
+    width: 100%;
+    height: 1px;
+    background: #e4e6ea;
+}
+.container, .container-fluid, .container-lg, .container-md,
+ .container-sm, .container-xl, .container-xxl {
+    padding-right: 0;
+    padding-left: 0;
+    overflow-X: hidden;
+}
+/* Start Header Section */
