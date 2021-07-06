@@ -16,9 +16,6 @@ a{
 /* End Global CSS */
 
 /* Start Header Section */
-header{
-
-}
 header h3{
     color: #5577b5;
     font-weight: 300;
@@ -77,7 +74,7 @@ header .fa-twitter{
     text-align: center;
     font-size: 50px;
     color: #0149a1;
-    font-weight: 700;
+    font-weight: 600;
     margin: 0;
 }
 .top p{
@@ -95,6 +92,7 @@ header .fa-twitter{
     margin: 75px auto;
     padding: 8px 30px;
     border-radius: 55px;
+    font-weight: 500;
 }
 /* End Top Section */
 
@@ -109,7 +107,7 @@ header .fa-twitter{
 }
 .service h4{
     text-align: center;
-    padding: 20px 0px 10px;
+    padding: 30px 0px 10px;
     color: rgb(93, 105, 129);
     font-size: 20px;
     font-weight: 600;
@@ -127,11 +125,12 @@ header .fa-twitter{
     background: url(../img/creativity.png) no-repeat top center;
     background-size: cover;
     padding: 30px 0;
+    margin-bottom: 2px;
 }
 .btn-creativity{
     display: block;
     width: 175px;
-    margin: 75px auto;
+    margin:  240px auto  75px;
     text-align: center;
     background: #0149a1;
     color: #fff;
@@ -139,6 +138,7 @@ header .fa-twitter{
     border-radius: 55px;
     margin-top: 240px;
     transition: .5s ease-in-out;
+    font-weight: 500;
 }
 a:hover {
     color: #fff;
@@ -147,3 +147,178 @@ a:hover {
     box-shadow: 5px 5px 10px 25px #fff;
 }
 /* End Creativity Section */
+
+/* Start Work Section */
+.work{
+    padding: 75px 0;
+    background: #0149a1;
+}
+.work h1{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+}
+.work p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    color: #5483bb;
+    margin: 0 0 75px;
+}
+.work .text{
+    text-align: left;
+    color: #fff;
+    font-size: 15px;
+    padding: 0 30px;
+}
+.work .btn-work{
+    display: block;
+    width: 175px;
+    margin: 40px auto;
+    text-align: center;
+    background: #fff;
+    color: #0149a1;
+    padding: 8px 30px;
+    border-radius: 55px;
+    font-weight: 500;
+}
+/* End Work Section */
+
+/* Start Opinion Section */
+.opinion{
+    padding: 75px 0; 
+}
+.opinion .client-img{
+    display: block;
+    margin: 0 auto;
+    width: 132px!important;
+    height: 132px;
+}
+.opinion p{
+    font-size: 20px;
+    text-align: center;
+    padding: 40px 300px 20px;
+    font-style: italic;
+    color: #8695a7;
+    font-weight: 300;
+}
+.opinion h5{
+    text-align: center;
+    font-size: 16px;
+    color: #8695a7;
+    font-weight: 300;
+}
+.opinion .org{
+    color: #8695a7;
+    text-decoration: underline;
+}
+.owl-carousel .owl-nav button.owl-next, 
+.owl-carousel .owl-nav button.owl-prev{
+    padding: 0px 17px!important;
+}
+.owl-prev{
+    position: absolute;
+    top: 40%;
+    left: 30px;
+    color: #8695a7!important;
+    font-size: 30px!important;
+    border: 1px solid #8695a7!important;
+    border-radius: 50%!important;
+}
+.owl-next{
+    position: absolute;
+    top: 40%;
+    right: 30px;
+    color: #8695a7!important;
+    font-size: 30px!important;
+    border: 1px solid #8695a7!important;
+    border-radius: 50%!important;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: #fff;
+}
+/* End Opinion Section */
+
+/* Start Team Section */
+.team{
+    background: #edeff1;
+    padding: 75px 0; 
+}
+.team h1{
+    text-align: center;
+    font-size: 50px;
+    color: #0149a1;
+    font-weight: 600;
+    margin: 0;
+}
+.team p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    color: #5d6981;
+    margin-bottom: 75px;
+}
+.team img{
+    display: block;
+    margin: 0 auto;
+}
+.team h4{
+    text-align: center;
+    padding: 30px 0px 10px;
+    color: rgb(93, 105, 129);
+    font-size: 20px;
+    font-weight: 600;
+}
+.team .text{
+    text-align: center;
+    font-size: 14px;
+    color: #7c8ca0;
+    padding: 0 30px;
+}
+.team .btn-team{
+    display: block;
+    text-align: center;
+    color: #fff;
+    background: #ff2d55;
+    width: 175px;
+    margin: 10px auto 30px;
+    padding: 8px 30px;
+    border-radius: 55px;
+    font-weight: 500;
+}
+/* End Team Section */
+
+/* Start Map Section */
+.map{
+    background: url(../img/map.png) top center no-repeat;
+    background-size: cover;
+    padding: 200px;
+}
+/* Start Map Section */
+
+/* Start Footer Section */
+footer{
+    background: #0149a1;
+    padding: 70px 0 0;
+}
+footer ul li{
+    list-style: none;
+    color: #fff;
+    font-weight: 300;
+    line-height: 25px;
+    font-size: 14px;
+}
+footer p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 100;
+    text-align: center;
+    padding: 70px 300px;
+}
+footer span{
+    font-weight: 500;
+}
+/* Start Footer Section */
