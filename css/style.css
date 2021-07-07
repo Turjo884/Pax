@@ -300,7 +300,6 @@ a:hover {
     background: url(../img/map.png) top center no-repeat;
     background-size: cover;
     padding: 150px;
-    max-width: 100%;
 }
 /* Start Map Section */
 
@@ -328,6 +327,25 @@ footer span{
     cursor: pointer;
 }
 /* Start Footer Section */
+
+
+/* Start Media Queries For Tablet Device */
+@media (min-width: 576px) and (max-width: 768px){
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {padding-right: var(--bs-gutter-x,-0.25rem);
+        padding-left: var(--bs-gutter-x,-0.25rem);}
+        header .fa-facebook { margin-left:21px;}
+        header .fa-twitter { margin-left:21px;}
+        .service p {padding: 0 150px;}
+        .work .work-img{display: block; margin: 0 auto;}
+        .work .text {padding: 55px 30px 0;}
+        .opinion p {font-size: 18px;padding: 40px 168px 20px;}
+        .opinion h5 {font-size: 14px;}
+        .team .text {padding: 0px 155px;}
+        footer ul{margin: 20px 0;}
+        footer ul li{text-align: center;}
+        footer p{padding: 20px 110px;}
+}
+/* End Media Quires For Tablet Device */
 
 
 /* Start Media Queries For Mobile Device */
