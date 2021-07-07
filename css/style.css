@@ -43,7 +43,7 @@ header .fa-facebook{
     border-radius: 50%;
     color: #3c5a99;
     padding: 7px 10px;
-    margin: 15px 10px 0 0;
+    margin: 15px 10px 0;
 }
 header .fa-twitter{
     border: 1px solid #28aae1;
@@ -68,7 +68,7 @@ header .fa-twitter{
 /* Start Top Section */
 .top{
     padding: 100px 0 35px;
-    background: linear-gradient(#fdfdfd, #e6e8ec);
+    background: linear-gradient(#fdfdfd, #e6e8ec, #e2e4e8, #fafafa);
 }
 .top h1{
     text-align: center;
@@ -98,7 +98,7 @@ header .fa-twitter{
 
 /* Start Service Section */
 .service{
-    background: #fff;
+    background:#fff;
     padding: 0 0 75px;
 }
 .service img{
@@ -165,18 +165,19 @@ a:hover {
     font-size: 25px;
     font-weight: 300;
     color: #5483bb;
-    margin: 0 0 75px;
+    margin: 0 0 85px;
 }
 .work .text{
     text-align: left;
     color: #fff;
     font-size: 15px;
     padding: 0 30px;
+    margin: 0;
 }
 .work .btn-work{
     display: block;
     width: 175px;
-    margin: 40px auto;
+    margin: 60px auto 40px;
     text-align: center;
     background: #fff;
     color: #0149a1;
@@ -220,19 +221,21 @@ a:hover {
 }
 .owl-prev{
     position: absolute;
-    top: 40%;
-    left: 30px;
+    top: 48%;
+    left: 50px;
     color: #8695a7!important;
     font-size: 30px!important;
+    text-align: center!important;
     border: 1px solid #8695a7!important;
     border-radius: 50%!important;
 }
 .owl-next{
     position: absolute;
-    top: 40%;
-    right: 30px;
+    top: 48%;
+    right: 50px;
     color: #8695a7!important;
     font-size: 30px!important;
+    text-align: center!important;
     border: 1px solid #8695a7!important;
     border-radius: 50%!important;
 }
@@ -259,7 +262,7 @@ a:hover {
     font-size: 25px;
     font-weight: 300;
     color: #5d6981;
-    margin-bottom: 75px;
+    margin-bottom: 55px;
 }
 .team img{
     display: block;
@@ -308,17 +311,18 @@ footer ul li{
     list-style: none;
     color: #fff;
     font-weight: 300;
-    line-height: 25px;
+    line-height: 27px;
     font-size: 14px;
 }
 footer p{
+    text-align: center;
     color: #fff;
     font-size: 14px;
     font-weight: 100;
-    text-align: center;
     padding: 70px 300px;
 }
 footer span{
     font-weight: 500;
+    cursor: pointer;
 }
 /* Start Footer Section */
