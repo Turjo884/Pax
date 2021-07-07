@@ -299,6 +299,7 @@ a:hover {
     background: url(../img/map.png) top center no-repeat;
     background-size: cover;
     padding: 200px;
+    width: 100%;
 }
 /* Start Map Section */
 
