@@ -299,7 +299,7 @@ a:hover {
 .map{
     background: url(../img/map.png) top center no-repeat;
     background-size: cover;
-    padding: 150px;
+    padding:  200px 150px;
 }
 /* Start Map Section */
 
