@@ -126,6 +126,7 @@ header .fa-twitter{
     background-size: cover;
     padding: 30px 0;
     margin-bottom: 2px;
+    max-width: 100%;
 }
 .btn-creativity{
     display: block;
@@ -299,7 +300,7 @@ a:hover {
     background: url(../img/map.png) top center no-repeat;
     background-size: cover;
     padding: 200px;
-    width: 100%;
+    max-width: 100%;
 }
 /* Start Map Section */
 
@@ -338,7 +339,7 @@ footer span{
      .top {padding: 55px 0 30px;}
      .top h1 {font-size: 45px;}
      .top p {font-size: 20px;}
-     .top .btn-top {margin: 65px auto;}
+     .top .btn-top {margin: 45px auto 65px;}
      .work h1 {font-size: 45px;}
      .work p {font-size: 20px;}
      .work .text {padding: 55px 30px 0;}
