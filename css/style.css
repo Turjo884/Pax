@@ -326,3 +326,27 @@ footer span{
     cursor: pointer;
 }
 /* Start Footer Section */
+
+
+/* Start Media Queries For Mobile Device */
+@media (min-width: 320px) and (max-width: 576px){
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {padding-right: var(--bs-gutter-x,-0.25rem);
+     padding-left: var(--bs-gutter-x,-0.25rem);}
+     header .fa-facebook { margin-left:21px;}
+     header .fa-twitter { margin-left:21px;}
+     .top {padding: 55px 0 30px;}
+     .top h1 {font-size: 45px;}
+     .top p {font-size: 20px;}
+     .top .btn-top {margin: 65px auto;}
+     .work h1 {font-size: 45px;}
+     .work p {font-size: 20px;}
+     .work .text {padding: 55px 30px 0;}
+     .opinion p {font-size: 15px;padding: 40px 110px 20px;}
+     .opinion h5 {font-size: 12px;}
+     .team h1 {font-size: 45px;}
+     .team p {font-size: 20px;}
+     footer ul{margin: 20px 0;}
+     footer ul li{text-align: center;}
+     footer p{padding: 20px 0px;}
+}
+/* End Media Queries For Mobile Device */
